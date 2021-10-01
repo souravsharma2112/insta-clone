@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Roboto:ital,wght@0,300;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Baloo 2', cursive;
+}
+
+/* =========================== Utility =========================== */
+.flex{
+    display: flex;
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+
+/* ================================ header ============================= */
+.mystory{
+    width: 100%;
+    border: 2px solid red;
+    display: flex;
+    overflow-y:hidden;
+    
+}
+.mystory-add-box{
+    border: 2px solid black;
+}
+.user-story-profile{
+    border-radius: 50%;
+}
+.user-story-profile img{
+    width: 61px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.user-story-add{
+    position: relative;
+    top: 18px;
+    left: -16px;
+    display: flex;
+    background-color:  #1877F2 ;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.bi-plus{
+    color: white;
+    background-color:#1877F2 ;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+}
+.friend-story-profile{
+    border-radius: 50%;
+    border: 3px solid darkmagenta;
+    margin-right: 1rem;
+}
+.friend-story-profile img{
+    width: 61px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+.friend-story{
+    display: flex;
+    border: 2px solid green;
+}
