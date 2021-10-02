@@ -69,3 +69,93 @@ body{
     display: flex;
     border: 2px solid green;
 }
+.header{
+    position: relative;
+}
+
+/* stroy veiw section */
+.friend-story-data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 2px solid red;
+}
+.friend1-story{
+    background-color: black;
+    z-index: -1;
+    height: 100%;
+    width: 500px;
+}
+.freind-story-header{
+    position: absolute;
+    color: white;
+    width: 500px;
+    /* border: 2px solid red; */
+}
+.friend-story-body{
+    position: relative;
+   
+    top: 10px;
+    z-index: -1;
+    height: 85%;
+    width: 100%;
+}
+.friend-story-body img{
+    width: 100%;
+    height: 100%;
+}
+.friend-profile-story img{
+    width: 31px;
+    border-radius: 50%;
+    margin: 12px;
+}
+.friend-story-reply{
+    border: 2px solid transparent;
+    width: 100%;   
+    padding: 6px;
+    padding-left: 12px;
+    border-radius: 21px;
+    background-color: white;
+    margin: 6px 21px;
+}
+.time-stick{
+    width: 100%;
+    display: block;
+}
+.time-stick-color{
+    width: 60%;
+    padding: 2px;
+    background-color: thistle;
+}
+.friend-story-footer{
+    /* border: 2px solid red; */
+    height: 15%;
+}
+.friend-story-footer input{
+    width: 85%;
+    outline: none;
+    padding: 2px;
+    border: 2px solid transparent;
+    font-size: 1.1rem;
+}
+.friend-story-footer h3{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1877F2;
+    /* border: 2px solid red; */
+    padding: 0px 6px;
+}
+.hidden{
+    display: none;
+}
+.friend-story-close{
+    color: white;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+.bi-x-circle{
+    color: white;
+}
